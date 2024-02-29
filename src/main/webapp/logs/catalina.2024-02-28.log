@@ -1,0 +1,37 @@
+28-Feb-2024 23:23:52.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+28-Feb-2024 23:23:52.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+28-Feb-2024 23:23:52.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+28-Feb-2024 23:23:52.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Feb-2024 23:23:52.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Feb-2024 23:23:52.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Feb-2024 23:23:52.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot
+28-Feb-2024 23:23:52.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.2+13-LTS
+28-Feb-2024 23:23:52.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+28-Feb-2024 23:23:52.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Sem5\WebTech\Assignments\JSP_Crud_Hibernate\src\main\webapp
+28-Feb-2024 23:23:52.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\compre\Development\apache-tomcat-9.0.85
+28-Feb-2024 23:23:52.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Feb-2024 23:23:52.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Feb-2024 23:23:52.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Feb-2024 23:23:52.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Feb-2024 23:23:52.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Feb-2024 23:23:52.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\compre\Development\apache-tomcat-9.0.85
+28-Feb-2024 23:23:52.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Sem5\WebTech\Assignments\JSP_Crud_Hibernate\src\main\webapp
+28-Feb-2024 23:23:52.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Sem5\WebTech\Assignments\JSP_Crud_Hibernate\src\main\webapp\temp
+28-Feb-2024 23:23:52.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Sem5\WebTech\Assignments\JSP_Crud_Hibernate\src\main\webapp\conf\logging.properties
+28-Feb-2024 23:23:52.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Feb-2024 23:23:52.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.4\lib\idea_rt.jar=53784:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.4\bin
+28-Feb-2024 23:23:52.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+28-Feb-2024 23:23:52.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+28-Feb-2024 23:23:52.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+28-Feb-2024 23:23:52.953 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+28-Feb-2024 23:23:52.953 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+28-Feb-2024 23:23:52.953 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Feb-2024 23:23:53.025 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+28-Feb-2024 23:23:54.037 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Feb-2024 23:23:54.084 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2114] milliseconds
+28-Feb-2024 23:23:54.194 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Feb-2024 23:23:54.194 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+28-Feb-2024 23:23:54.214 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Sem5\WebTech\Assignments\JSP_Crud_Hibernate\src\main\webapp\conf\Catalina\localhost\ROOT.xml]
+28-Feb-2024 23:23:55.084 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Sem5\WebTech\Assignments\JSP_Crud_Hibernate\src\main\webapp\conf\Catalina\localhost\ROOT.xml] has finished in [870] ms
+28-Feb-2024 23:23:55.092 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Feb-2024 23:23:55.139 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1053] milliseconds

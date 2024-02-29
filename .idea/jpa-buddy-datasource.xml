@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="c33c2ffd-8868-4eea-97b7-aac2c5ff0abb" name="JSP_Crud_Hibernate" url="jdbc:postgresql://localhost/user_mgt_db" driverClass="org.postgresql.Driver" />
+    </data-sources>
+  </component>
+</project>
