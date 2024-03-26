@@ -26,11 +26,11 @@ public class UserDao {
 			transaction = session.beginTransaction();
 			// save the student object
 
-			user =(User) session.save(user);
-
-
+			session.save(user);
 			// commit transaction
 			transaction.commit();
+			return user;
+
 		} catch (Exception e) {
 			if (transaction != null && transaction.isActive()) {
 //				transaction.rollback();

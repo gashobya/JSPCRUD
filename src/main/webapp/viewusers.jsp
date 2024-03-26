@@ -9,6 +9,7 @@
 
 <%@page import="javatpoint.dao.UserDao,javatpoint.bean.*,java.util.*"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@page isELIgnored="false"%>
 
 <h1>Users List</h1>
 

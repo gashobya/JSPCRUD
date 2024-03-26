@@ -5,11 +5,14 @@
 <title>Edit Form</title>
 </head>
 <body>
-<%@page import="com.javatpoint.dao.UserDao,com.javatpoint.bean.User"%>
+<%@page import="javatpoint.dao.UserDao,javatpoint.bean.User"%>
 
 <%
 String id=request.getParameter("id");
-User u=UserDao.getRecordById(Integer.parseInt(id));
+UserDao dao = new UserDao();
+User u = new User();
+
+u = dao.getUser(Integer.parseInt(id));
 %>
 
 <h1>Edit Form</h1>

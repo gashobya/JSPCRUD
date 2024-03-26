@@ -1,8 +1,9 @@
-<%@page import="com.javatpoint.dao.UserDao"%>
-<jsp:useBean id="u" class="com.javatpoint.bean.User"></jsp:useBean>
+<%@page import="javatpoint.dao.UserDao"%>
+<jsp:useBean id="u" class="javatpoint.bean.User"></jsp:useBean>
 <jsp:setProperty property="*" name="u"/>
 
 <%
-int i=UserDao.update(u);
+UserDao dao = new UserDao();
+dao.updateUser(u);
 response.sendRedirect("viewusers.jsp");
 %>

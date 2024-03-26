@@ -21,15 +21,17 @@ public class HibernateUtil {
 				// Hibernate settings equivalent to hibernate.cfg.xml's properties
 				Properties settings = new Properties();
 				settings.put(Environment.DRIVER, "org.postgresql.Driver");
-				settings.put(Environment.URL, "jdbc:postgresql://localhost:5432/user_mgt_db?useSSL=false");
+				settings.put(Environment.URL, "jdbc:postgresql://localhost:5432/users_db");
 				settings.put(Environment.USER, "postgres");
-				settings.put(Environment.PASS, "078868");
+				settings.put(Environment.PASS, "@@AUCA978");
 				settings.put(Environment.DIALECT, "org.hibernate.dialect.PostgreSQLDialect");  // Correct PostgreSQL dialect
 
+
 				settings.put(Environment.SHOW_SQL, "true");
-				settings.put(Environment.CURRENT_SESSION_CONTEXT_CLASS, "thread");
-				settings.put(Environment.HBM2DDL_AUTO, "create-drop");
+
+				settings.put(Environment.HBM2DDL_AUTO, "update");
 				configuration.setProperties(settings);
+				configuration.setProperty("hibernate.globally_quoted_identifiers", "true");
 
 				configuration.addAnnotatedClass(javatpoint.bean.User.class);
 
